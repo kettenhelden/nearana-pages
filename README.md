@@ -1,17 +1,25 @@
-# Nearana — Support, Datenschutz / Privacy
+# Nearana – GitHub Pages
 
-Website für Nearana (Audiobookshelf-Client), deutsch und englisch. Statische Seiten ohne externe Schriftarten oder Tracking-Skripte.
+Zweisprachige statische Website (Deutsch und Englisch) mit Startseite, Support, Datenschutzerklärung und Impressum.
 
-**DRAFT / NICHT VERÖFFENTLICHEN, bis die Pflichtangaben ergänzt wurden.**
+- Betreiber: Christian Webering
+- Kontakt: info@kettenhelden.com
+- Hosting: GitHub Pages
+- Keine eigenen Werbe- oder Tracking-Skripte, keine externen Schriftarten.
+- App-Code verbleibt im separaten privaten Repository `kapitel-ios`.
 
-In `support/index.html`, `privacy/index.html`, `imprint/index.html` und den entsprechenden Dateien unter `en/` alle Platzhalter ersetzen:
+## Veröffentlichung
 
-- [SUPPORT_E_MAIL] — funktionierende Kontaktadresse
-- [NAME_ODER_FIRMA] — tatsächlich verantwortliche Person / Unternehmen
-- [STRASSE_HAUSNUMMER], [PLZ_ORT], [LAND] — ladungsfähige Anschrift
+Nach dem Merge unter **Settings → Pages → Build and deployment** **Deploy from a branch** wählen und **main / (root)** speichern.
 
-Je nach Anbieter zusätzliche Pflichtangaben ergänzen. Datenschutz vor Release mit finalem iOS-Build, SDKs und tatsächlicher Datenverarbeitung abgleichen und rechtlich prüfen. Keine Zugangsdaten oder sensible Informationen in dieses öffentliche Repository committen.
+Webadresse: https://kettenhelden.github.io/nearana-pages/
 
-Nach dem Merge GitHub → Settings → Pages → Deploy from a branch → main → /(root) → Save. Geplante URL: https://kettenhelden.github.io/nearana-pages/
+- Deutsch: `/support/`, `/privacy/`, `/imprint/`
+- Englisch: `/en/support/`, `/en/privacy/`, `/en/imprint/`
 
-Diese Website beinhaltet **nicht den App-Quellcode**. App-Repository bleibt privat.
+## Vor App-Store-Einreichung prüfen
+
+- Rechtliche Pflichtangaben und Datenschutztext fachlich prüfen (Angaben im Website-Quellcode spiegeln die beim Erstellen überprüfte Version der iOS-App wider).
+- Tatsächlich veröffentlichte Build-Version der App inklusive möglicher SDKs und Datenflüsse abgleichen.
+- Support-E-Mail auf Zustellbarkeit prüfen.
+- Nach GitHub-Pages-Aktivierung alle URLs im Browser aufrufen und testen.
